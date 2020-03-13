@@ -1,0 +1,76 @@
+.login {
+  height: 100%;
+  background-color: #666 !important;
+}
+.content-center{
+  position: absolute;
+  top: 20%;
+  left:35%;
+  width: 400px;
+  height: 350px;
+  background: rgba(0,0,0,0.3);
+  border-radius: 10px;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  color: aliceblue;
+}
+.input_username{
+  margin-top: 100px;
+  color: aliceblue;
+  width: 50%;
+  padding-left: 10px;
+}
+.input_password{
+  width: 50%;
+  padding-left: 10px;
+}
+.input_button{
+  margin-left: 155px;
+}
+.bg-mask{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* filter: blur(10px); */
+  /* background-image: url(../../../static/img/bg1.jpg); */
+  /* opacity: .5; */
+}
+.bg-mask img{
+  width:100%;
+  height:100%;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  filter: blur(3px);
+}
+.bg-mask-img{
+  filter: blur(10px);
+  animation: myfirst 5s;
+  -moz-animation: myfirst 5s;	/* Firefox */
+  -webkit-animation: myfirst 5s;	/* Safari 和 Chrome */
+  -o-animation: myfirst 5s;	/* Opera */
+}
+@keyframes myfirst
+{
+from { background-image: url(../../../static/img/bg1.jpg); }
+to { background-image: url(../../../static/img/bg2.jpg); }
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+  from { background-image: url(../../../static/img/bg1.jpg); }
+  to { background-image: url(../../../static/img/bg2.jpg); }
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+  from { background-image: url(../../../static/img/bg1.jpg); }
+  to { background-image: url(../../../static/img/bg2.jpg); }
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+  from { background-image: url(../../../static/img/bg1.jpg); }
+  to { background-image: url(../../../static/img/bg2.jpg); }
+}
+

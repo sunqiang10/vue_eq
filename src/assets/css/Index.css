@@ -1,0 +1,38 @@
+.hello{
+  height: 100%;
+}
+.admin_logo{
+  font-size: 24px;
+  font-weight: bold;
+}
+.admin_logo img{
+  height: 30px;
+  display:inline-flex;
+  vertical-align:middle;
+}
+.admin_logo_right{
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+  color: white;
+}
+.content-center{
+  position: absolute;
+  top: 20%;
+  left:35%;
+  width: 400px;
+  height: 350px;
+  background: rgba(0,0,0,0.3);
+  border-radius: 10px;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  color: aliceblue;
+}
+.el-header {
+  background-color: #B3C0D1;
+  color: #333;
+  line-height: 60px;
+}
+
+.el-aside {
+  color: #333;
+}
