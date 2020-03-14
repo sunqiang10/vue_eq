@@ -1,7 +1,16 @@
 # vue_eq
-
 > A Vue.js project
-
+### 我的仓库中的项目
+> 【vue_eq】后台管理端的界面端
+###
+> 【eq_collect】后台服务端
+###
+> 【wx_eq_collect】微信小程序端
+###
+![image](https://raw.githubusercontent.com/sunqiang10/vue_eq/master/screenshot/1.png)
+![image](https://raw.githubusercontent.com/sunqiang10/vue_eq/master/screenshot/2.png)
+![image](https://raw.githubusercontent.com/sunqiang10/vue_eq/master/screenshot/3.png)
+![image](https://raw.githubusercontent.com/sunqiang10/vue_eq/master/screenshot/4.png)
 ## Build Setup
 
 ``` bash
